@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO Do LIST</title>
+ <link rel="stylesheet" href="./to.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+    <h1><span class="image"><img src="../Images_stored_here/Techathalon.png" alt=""></span> <span class="red">TECH</span><span class="black">ATHALON</span><br><span>To-Do List App</span></h1>
+
+        <div class="input-container">
+
+            <!-- we have taken the input tab here  -->
+             <input type="text" id="taskInput" placeholder="Add a new task"/>
+
+             <!-- we have added one button which as Add and with the help of onclick property we have 
+             given the function -->
+
+             <button  id="add" onclick="addTask()">Add</button>
+
+        </div>
+             
+        <!-- list will get add  -->
+            <ul id="taskList">
+            <!-- we have mention nothing because we are going to provide directly when we open the todo app -->
+            </ul>
+
+
+    </div>
+
+    <!-- i have mention JS Externally inside html -->
+    <script src="./to.js"></script>
+</body>
+
+</html>
